@@ -1,0 +1,151 @@
+/* contact forms*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {   /*submit button*/
+    background-color: darkcyan;
+    color:white;
+    padding: 12px 20px;
+    border: none;
+    border-radius:4px;
+    cursor: pointer; 
+}
+
+.container{
+    border-radius: 5px;
+    width:60%;
+    background-color:white;
+    padding: 20px;
+}
+
+body{
+    background-color: grey;
+}
+/* contact forms end*/
+
+/*navigation header*/  
+
+ul {
+    list-style-type: none;
+    background-color: darkcyan;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    display: inline;
+    position: fixed; /*part 2*/
+    top:0;
+    width: 30%;
+    border: 1px solid black
+ }
+ li{
+font-size: 24px;     
+display: inline;
+width: 60px;
+border-right: 2px solid black;/*part 2*/
+top:0;
+}
+li a{
+    color:black;
+}
+ }
+ li:last-child{/*part 2*/
+     border-left:none;
+ }
+.active{
+background-color: darkcyan;
+}
+
+ /*navigation header end */
+
+/*portfolio*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+.section {
+    text-align: center; /* text code overlay*/
+    color:black;
+   position: absolute;
+   border-radius: 5px;
+    width:60%;
+    background-color:red;
+    padding: 20px;
+}  
+/*. text{   display: inline-block;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+
+
+
+/*portfolio end*/
+
+
+/* text blocks over image */
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  /* Bottom right text */
+.text-block {
+    background-color: darkcyan;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: -20px;
+}
+
+.text-block h4 {
+      margin: 0;
+}
+/*end text*/
+
+/*media*/
+
+@media screen and (min-width: 640px) {
+    body {
+      background-color: yellow;
+      position: static;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    body {
+      background-color: blue;
+    }
+  }
+
+  @media screen and (min-width: 980px) {
+    body {
+      background-color: red;
+    }
+  }
+
+/*end media*/
+
+
+ /*extras*/
+ /*a:hover{}
+ a:focus
+ a:active*/
